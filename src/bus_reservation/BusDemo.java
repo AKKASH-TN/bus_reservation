@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BusDemo {
 
 	public static void main(String[] args){
-		// TODO Auto-generated method stub
+		
 		BusDAO busdao = new BusDAO();
 		try {
 			busdao.displayBusInfo();
