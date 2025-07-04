@@ -66,10 +66,10 @@ public class BusDemo {
 						bookingdao.addBooking(booking);
 						System.out.println("Your booking is confirmed. Thank You!");
 					} else {
-						System.out.println("Sorry. Bus is not available at that time. Try another bus or date.");
+						System.out.println("Achacho seat illa pa. Try another bus or date.");
 					}
 				} catch (Exception e) {
-					System.out.println("Error during booking. Please try again.");
+					System.out.println("Maame Sorry for inconveince. konjom neram kalichu try pannu.");
 					e.printStackTrace();
 				}
 			} else if (userOpt == 2) {
